@@ -1,0 +1,24 @@
+{
+  "name": "@starter/infra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit --pretty false",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "bootstrap": "cdk bootstrap"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "latest",
+    "constructs": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "aws-cdk": "latest",
+    "esbuild": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

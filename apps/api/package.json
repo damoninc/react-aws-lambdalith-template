@@ -1,0 +1,20 @@
+{
+  "name": "@starter/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/dev.ts",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit --pretty false"
+  },
+  "dependencies": {
+    "@starter/shared": "*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "latest",
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
