@@ -14,5 +14,8 @@
     "deploy": "npm run build && npm run deploy --workspace=@starter/infra",
     "destroy": "npm run destroy --workspace=@starter/infra",
     "bootstrap": "npm run bootstrap --workspace=@starter/infra"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
   }
 }
